@@ -11,6 +11,7 @@
 
 ### Features
 * https://github.com/facebook/create-react-app/issues/3456 - How to host React app on GitHub User pages, and working around exclusive deployment option from master branch only. 
+* https://blog.yechiel.me/adding-https-to-github-pages-using-a-custom-domain-7e4ee8ab1c50 - How to add HTTPS
 * https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 * https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk
 * https://unsplash.com/search/photos/tea - Some background images to use
