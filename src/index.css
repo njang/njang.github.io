@@ -1,5 +1,90 @@
 body {
-  margin: 0;
-  padding: 0;
+  /*margin: 0px;*/
+  /*padding: 0px;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, p, ul, li {
   font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  padding: 2em;
+  height: 100%;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.hero-image {
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.3), 
+      rgba(255, 255, 255, 0.3)
+    ),     
+    url('/images/cole-hutson-50986-unsplash.jpg');
+  height: 800px;
+  color: #263238;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/* handling profile photos that turn from greyscale to color upon hover */
+.rounded-circle {
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;  
+}
+.rounded-circle:hover {
+filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+/* In mobile screen, disable grayscale */
+@media only screen and (max-width: 600px) {
+    .rounded-circle {
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
 }
