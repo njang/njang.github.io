@@ -8,9 +8,9 @@ class FellowView extends Component {
 		            <img className='rounded-circle img-fluid d-block mx-auto' src={ this.props.avatar } alt={ this.props.fellowName} />
 		            <h3>{ this.props.fellowName }</h3>
 		            <div className='row justify-content-center'>
-		            	<a href={ "https://www.linkedin.com/in/" + this.props.linkedIn }><i className="col h4 text-dark fab fa-linkedin-in" /></a>
-		            	<a href={ "https://github.com/" + this.props.github }><i className="col h4 text-dark fab fa-github" /></a>
-	            		<a href={ this.props.portfolio }><i className="col h4 text-dark fas fa-user-circle" /></a>
+		            	<a href={ "https://www.linkedin.com/in/" + this.props.linkedIn } target='_blank'><i className="col h4 text-dark fab fa-linkedin-in" /></a>
+		            	<a href={ "https://github.com/" + this.props.github } target='_blank'><i className="col h4 text-dark fab fa-github" /></a>
+	            		<a href={ this.props.portfolio } target='_blank'><i className="col h4 text-dark fas fa-user-circle" /></a>
 		            </div>
 		        </div>
 	    	)
@@ -20,8 +20,8 @@ class FellowView extends Component {
 		            <img className='rounded-circle img-fluid d-block mx-auto' src={ this.props.avatar } alt={ this.props.fellowName} />
 		            <h3>{ this.props.fellowName }</h3>
 		            <div className='row justify-content-center'>
-		            	<a href={ "https://www.linkedin.com/in/" + this.props.linkedIn }><i className="col h4 text-dark fab fa-linkedin-in" /></a>
-		            	<a href={ "https://github.com/" + this.props.github }><i className="col h4 text-dark fab fa-github" /></a>
+		            	<a href={ "https://www.linkedin.com/in/" + this.props.linkedIn } target='_blank'><i className="col h4 text-dark fab fa-linkedin-in" /></a>
+		            	<a href={ "https://github.com/" + this.props.github } target='_blank'><i className="col h4 text-dark fab fa-github" /></a>
 		            </div>
 		            {/*<div className='row justify-content-center'>
 		            	<a href={ "https://www.linkedin.com/in/" + this.props.linkedIn }><img className='col h4' src='images/icons/linkedin.svg' height="24px" alt='LinkedIn'/></a>

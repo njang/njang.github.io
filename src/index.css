@@ -42,8 +42,8 @@ ul.header li a {
       rgba(255, 255, 255, 0.3)
     ),     
     url('/images/cole-hutson-50986-unsplash.jpg');
-  height: 800px;
-  color: #263238;
+  height: 90vh;
+  /*color: #263238;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,10 +83,10 @@ filter: none;
 
 /* In mobile screen, disable grayscale */
 @media only screen and (max-width: 600px) {
-    .rounded-circle {
-        filter: none;
-        -webkit-filter: grayscale(0);
-    }
+  .rounded-circle {
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
 }
 
 .services {
