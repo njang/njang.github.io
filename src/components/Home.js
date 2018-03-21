@@ -1,5 +1,7 @@
 import React, { Component } from "react";
- 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/fontawesome-free-solid'
+
 class Home extends Component {
     render() {
         return (
@@ -13,6 +15,7 @@ class Home extends Component {
                 </div>
                 <div className='services justify-content-center'>
                     <h2>Services</h2>
+                    <FontAwesomeIcon icon="code"/>
                 </div>
             </div>
         );
