@@ -111,7 +111,7 @@ class About extends Component {
             )
         })
         return (
-            <div className='container'>
+            <div className='content'>
                 <div className='row'>
                     <div className='col-lg-8 col-sm-6 mb-4'>
                         <h1 className='my-4'>Hello, my name is Neo.</h1>

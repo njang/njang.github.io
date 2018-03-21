@@ -10,9 +10,7 @@ class Main extends Component {
         	<HashRouter>
 	            <div className="Main pt-5">
 					<Navbar />
-					<div className="content">
-						{ Routes }
-					</div>
+					{ Routes }
 					<Footer />
 	            </div>
         	</HashRouter>
