@@ -11,21 +11,24 @@ class About extends Component {
                     'avatar': 'https://avatars1.githubusercontent.com/u/32828225?s=120&v=4',
                     'linkedIn': 'jake-chavez',
                     'github': 'jake94chavez',
-                    'gaProfile': 'jake-chavez'
+                    'gaProfile': 'jake-chavez',
+                    'portfolio': 'https://jake94chavez.github.io/'
                 },
                 {
                     'name': 'Lillian Chernin',
                     'avatar': 'https://avatars3.githubusercontent.com/u/30993518?s=120&v=4',
                     'linkedIn': 'lillian-chernin',
                     'github': 'LillianChernin',
-                    'gaProfile': 'lillian-chernin'
+                    'gaProfile': 'lillian-chernin',
+                    'portfolio': 'http://www.lillianchernin.com/'
                 },
                 {
                     'name': 'Marcy Lina',
                     'avatar': 'https://avatars0.githubusercontent.com/u/32626323?s=120&v=4',
                     'linkedIn': 'MarcyLina',
                     'github': 'marcyacevedo',
-                    'gaProfile': 'marcyacevedo'
+                    'gaProfile': 'marcyacevedo',
+                    'portfolio': 'http://marcyacevedo.com/'
                 },
                 {
                     'name': 'Chris Hanten',
@@ -107,11 +110,12 @@ class About extends Component {
                     avatar = { fellow.avatar }
                     linkedIn = { fellow.linkedIn }
                     github = { fellow.github }
+                    portfolio = { fellow.portfolio }
                 />
             )
         })
         return (
-            <div className='content'>
+            <div className='container content'>
                 <div className='row'>
                     <div className='col-lg-8 col-sm-6 mb-4'>
                         <h1 className='my-4'>Hello, my name is Neo.</h1>
@@ -124,7 +128,7 @@ class About extends Component {
                 <div className='row'>
                     <div className='col-lg-12'>
                         <h2 className='my-4'>The Team</h2>
-                        <p>In December 2017, a group of strangers embarked on a journey that will impact every member in the the most profound and wondrous ways that no one could have possibly foreseen. These are my fellow developers who accompanied me in not only learning, but also nerding-out, pontificating, and laughing heartily through spontaneous mid-lecture singing and in-class dancing, which was impossibly all packed into the shortest 13-weeks of my life.</p>
+                        <p>In December 2017, a group of strangers embarked on a journey that will impact every member in the the most profound and wondrous ways that no one could have possibly foreseen. These are my fellow developers who accompanied me in not only learning, but also nerding-out, pontificating, and laughing heartily through spontaneous mid-lecture singing and in-class dancing, which was impossibly all packed into the shortest 13-weeks of my life. Make sure to reach out to any one of these magnificent developers.</p>
                     </div>
                     { cohort }
                 </div>
