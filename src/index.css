@@ -92,6 +92,10 @@ filter: none;
 .services {
   background-color: #0D47A1;
   text-align: center;
-  padding: 10em 0;
+  padding: 5em 0;
   color: white;
+}
+
+.fa-stack-1x {
+  color: #0D47A1;
 }
