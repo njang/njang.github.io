@@ -99,3 +99,10 @@ filter: none;
 .fa-stack-1x {
   color: #0D47A1;
 }
+
+.contacts {
+  height: 80vh;  
+  padding-top: 30vh;
+  font-size: 8vh;
+  /*position: relative;*/
+}
