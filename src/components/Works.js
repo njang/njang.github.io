@@ -6,7 +6,7 @@ class Works extends Component {
     	<div className='content container'>
 			<div className='row justify-content-center'>
 				<div className='col-10 col-sm-8 col-md-6 my-5'>
-					<a href='https://www.neojang.com/textTwist/#/' target='_blank' rel='noopener noreferrer'>					
+					<a href='https://bgcc.surge.sh' target='_blank' rel='noopener noreferrer'>					
 						<h1 className='text-center'>Daily Report</h1>
 						<img src='/images/bgcc.png' className='img-thumbnail' alt='Daily Report for BGCC' />
 					</a>
@@ -19,7 +19,7 @@ class Works extends Component {
 					</div>
 				</div>
 				<div className='col-10 col-sm-8 col-md-6 my-5'>
-					<a href='https://www.neojang.com/textTwist/#/' target='_blank' rel='noopener noreferrer'>					
+					<a href='https://www.neojang.com/textTwist/' target='_blank' rel='noopener noreferrer'>					
 						<h1 className='text-center'>Text Twist</h1>
 						<img src='/images/textTwist.png' className='img-thumbnail' alt='Text Twist' />
 					</a>
@@ -45,7 +45,7 @@ class Works extends Component {
 					</div>
 				</div>	
 				<div className='col-10 col-sm-8 col-md-6 my-5'>
-					<a href='https://www.neojang.com/calculator/#/' target='_blank' rel='noopener noreferrer'>					
+					<a href='https://www.neojang.com/calculator/' target='_blank' rel='noopener noreferrer'>					
 						<h1 className='text-center'>Calculator</h1>
 						<img src='/images/calculator.png' className='img-thumbnail' alt='Caltulator' />
 					</a>
