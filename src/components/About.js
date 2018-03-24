@@ -42,14 +42,16 @@ class About extends Component {
                     'avatar': 'https://avatars2.githubusercontent.com/u/32710993?s=120&v=4',
                     'linkedIn': 'aleena-madni',
                     'github': 'aleenamad',
-                    'gaProfile': 'aleena-madni'
+                    'gaProfile': 'aleena-madni',
+                    'portfolio': 'http://aleenamadni.com/'
                 },
                 {
                     'name': 'Tess Craig',
                     'avatar': 'https://avatars3.githubusercontent.com/u/33147725?s=120&v=4',
                     'linkedIn': 'tesscraig',
                     'github': 'TessACraig89',
-                    'gaProfile': 'tesscraig'
+                    'gaProfile': 'tesscraig',
+                    'portfolio': 'http://tesscraig.surge.sh/'
                 },
                 {
                     'name': 'Max Tessenholtz',
@@ -63,14 +65,16 @@ class About extends Component {
                     'avatar': 'https://avatars0.githubusercontent.com/u/33467228?s=120&v=4',
                     'linkedIn': 'jorgeivan-rodriguez',
                     'github': 'jorgeivvn',
-                    'gaProfile': 'jorge-rodriguez'
+                    'gaProfile': 'jorge-rodriguez',
+                    'portfolio': 'http://jorgeivvn.com/'
                 },
                 {
                     'name': 'Scott Sheppard',
                     'avatar': 'https://avatars3.githubusercontent.com/u/7772230?s=120&v=4',
                     'linkedIn': 'wscottsh',
                     'github': 'wScottSh',
-                    'gaProfile': 'wScottSh'
+                    'gaProfile': 'wScottSh',
+                    'portfolio': 'http://www.betheepicwin.com/'
                 },
                 {
                     'name': 'Shahzad Khan',
@@ -82,7 +86,8 @@ class About extends Component {
                     'name': 'Daniel Scott',
                     'avatar': 'https://avatars3.githubusercontent.com/u/20377140?s=120&v=4',
                     'linkedIn': 'daniel-j-scott',
-                    'github': 'mydeveloperjourney'  
+                    'github': 'mydeveloperjourney',
+                    'portfolio': 'https://mydeveloperjourney.com/'
                 },
                 {
                     'name': 'Alex White',
