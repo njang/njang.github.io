@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Routes from './config/routes';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -7,13 +7,13 @@ import Footer from "./components/Footer";
 class Main extends Component {
     render() {
         return (
-        	<HashRouter>
+        	<BrowserRouter>
 	            <div className="Main pt-5">
 					<Navbar />
 					{ Routes }
 					<Footer />
 	            </div>
-        	</HashRouter>
+        	</BrowserRouter>
         );
     }
 }
