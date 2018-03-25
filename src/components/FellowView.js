@@ -10,7 +10,7 @@ class FellowView extends Component {
 		            <div className='row justify-content-center'>
 		            	<a href={ "https://www.linkedin.com/in/" + this.props.linkedIn } target='_blank'><i className="col h4 text-dark fab fa-linkedin-in" /></a>
 		            	<a href={ "https://github.com/" + this.props.github } target='_blank'><i className="col h4 text-dark fab fa-github" /></a>
-	            		<a href={ this.props.portfolio } target='_blank'><i className="col h4 text-dark fas fa-user-circle" /></a>
+	            		<a href={ this.props.portfolio } target='_blank'><i className="col h4 text-dark fas fa-info-circle" /></a>
 		            </div>
 		        </div>
 	    	)
