@@ -37,9 +37,9 @@ ul.header li a {
 
 .hero-image {
   background:
-    linear-gradient(
-      rgba(255, 255, 255, 0.3), 
-      rgba(255, 255, 255, 0.3)
+    radial-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.75)
     ),     
     url('/images/cole-hutson-50986-unsplash.jpg');
   height: 90vh;

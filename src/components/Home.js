@@ -8,7 +8,7 @@ class Home extends Component {
         return (
             <div className='container-fluid'>
                 <div className='row align-items-center justify-content-center hero-image'>
-                    <div className='col hero-text'>
+                    <div className='col hero-text text-white'>
                         <h1 className='text-center text-uppercase font-weight-bold'>Neo W. Jang</h1>
                         <h4 className='text-center font-weight-bold'>Full Stack Web Developer</h4>
                         {/* <h4 className='text-center font-weight-bold'>Both Stack Engineer</h4>*/}
