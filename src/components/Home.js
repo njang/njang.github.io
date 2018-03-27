@@ -10,7 +10,7 @@ class Home extends Component {
                 <div className='row align-items-center justify-content-center hero-image'>
                     <div className='col hero-text text-white'>
                         <h1 className='text-center text-uppercase font-weight-bold'>Neo W. Jang</h1>
-                        <h4 className='text-center font-weight-bold'>Full Stack Web Developer</h4>
+                        <h4 className='text-center'>Full Stack Web Developer</h4>
                         {/* <h4 className='text-center font-weight-bold'>Both Stack Engineer</h4>*/}
                         {/* A results-driven and detail-oriented engineer with strong analytical & critical problem-solving skills. Experienced first-hand in application development, deployment & documentation, including requirements documentation, feedback cycles with clients and education/training of end users. Portfolio of achievements in diverse engineering fields.*/}
                     </div>
