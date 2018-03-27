@@ -1,7 +1,7 @@
 body {
   /*margin: 0px;*/
   /*padding: 0px;*/
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 h1, h2, p, ul, li {
@@ -41,7 +41,7 @@ ul.header li a {
       rgba(0, 0, 0, 0.25), 
       rgba(0, 0, 0, 0.75)
     ),     
-    url('/images/cole-hutson-50986-unsplash.webp');
+    url('/images/cole-hutson-50986-unsplash.jpg');
   height: 90vh;
   /*color: #263238;*/
   background-position: center;
