@@ -13,6 +13,7 @@ class Works extends Component {
 					<p>
 						Designed for Becky Gates Children's Center, Texas A&M University
 					</p>
+					<a href='https://www.github.com/njang/bgcc-app'>GitHub</a>
 					<div className='row justify-content-center text-center'> 
                     	<i className='col fab fa-react h2 text-dark' />
                     	<i className='col fab fa-html5 h2 text-dark' />
@@ -26,6 +27,7 @@ class Works extends Component {
 					<p>
 						A classic word game to challenge the player's spelling skills. Similar to the calculator above, in that a great majority of app is written in plain JavaScript.
 					</p>
+					<a href='https://www.github.com/njang/textTwist'>GitHub</a>					
 					<div className='row justify-content-center text-center'> 
                     	<i className='col fab fa-js h2 text-dark' />
                     	<i className='col fab fa-html5 h2 text-dark' />
@@ -39,6 +41,7 @@ class Works extends Component {
 					<p>
 						Neighborhood Produce Exchange, bringing all your neighbor growers together. Written in Python/Django framework.
 					</p>
+					<a href='https://www.github.com/njang/ngithborful'>GitHub</a>
 					<div className='row justify-content-center text-center'> 
                     	<i className='col fab fa-python h2 text-dark' />
                     	<i className='col fab fa-html5 h2 text-dark' />
@@ -52,6 +55,7 @@ class Works extends Component {
 					<p>
 						A simple elegant webapp calculator written almost exclusively in JavaScript, covering both calculator operating logic as well as front-end rendering.
 					</p>
+					<a href='https://www.github.com/njang/calculator'>GitHub</a>
 					<div className='row justify-content-center text-center'> 
                     	<i className='col fab fa-js h2 text-dark' />
                     	<i className='col fab fa-html5 h2 text-dark' />
