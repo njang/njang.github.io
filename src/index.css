@@ -105,3 +105,17 @@ filter: none;
   font-size: 8vh;
   /*position: relative;*/
 }
+
+
+ .github-corner {
+    fill:#FD6C6C; 
+    color:#fff; 
+    position: absolute; 
+    top: 0; 
+    border: 0; 
+    right: 0;
+  }
+
+.github-corner-path {
+  transform-origin: 130px 106px
+}
