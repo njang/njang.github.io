@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import Routes from './config/routes';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import GitHubCorner from './components/GitHubCorner';
 
 class Main extends Component {
     render() {
@@ -12,6 +13,8 @@ class Main extends Component {
 					<Navbar />
 					{ Routes }
 					<Footer />
+                    <GitHubCorner />
+
 	            </div>
         	</BrowserRouter>
         );
