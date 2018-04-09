@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faCloud } from '@fortawesome/fontawesome-free-solid'
-import { faJsSquare, faHtml5 } from '@fortawesome/fontawesome-free-brands'
+import { faJsSquare, faHtml5, faAndroid } from '@fortawesome/fontawesome-free-brands'
 
 class Home extends Component {
     render() {
@@ -26,7 +26,17 @@ class Home extends Component {
                             <h4 className='my-2'>
                                 <strong>Custom Web Development</strong>
                             </h4>
-                            <p>My expertise is in building entire website from the ground up, covering both front- & back-end. What idea would you like to make happen?</p>
+                            <p>My expertise is in building entire website from the ground up, covering both front- & back-ends. What idea would you like to make happen?</p>
+                        </div>
+                        <div className='col-md-3 col-sm-6 my-3'>
+                            <span className="fa-stack fa-3x">
+                                <i className="fa fa-circle fa-stack-2x"></i>
+                                <FontAwesomeIcon icon={faAndroid} className='fa-stack-1x' />
+                            </span>
+                            <h4 className='my-2'>
+                                <strong>Mobile App Development</strong>
+                            </h4>
+                            <p>As of 2017, almost 80% of internet traffic in US comes from mobile devices. Don't fall behind and lose engaging your audience!</p>
                         </div>
                         <div className='col-md-3 col-sm-6 my-3'>
                             <span className="fa-stack fa-3x">
@@ -44,9 +54,9 @@ class Home extends Component {
                                 <FontAwesomeIcon icon={faCloud} className='fa-stack-1x' />
                             </span>
                             <h4 className='my-2'>
-                                <strong>What else?</strong>
+                                <strong>Something else?</strong>
                             </h4>
-                            <p>Whether it's Django framework, or Data analytics by Python, I can build it. </p>
+                            <p>Whether it's Django framework, or Data analytics by Python, we can build it together. Let's start our conversation today.</p>
                         </div>
                     </div>
                 </div>
